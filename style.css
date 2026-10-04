@@ -37,4 +37,8 @@ footer a{color:var(--text2)}
 .doc li{margin:6px 0}
 .doc p,.doc li{color:var(--text2)}
 .doc strong{color:var(--text)}
+.shots{display:flex;gap:16px;overflow-x:auto;padding:20px 4px 12px;scroll-snap-type:x mandatory;-webkit-overflow-scrolling:touch}
+.shots figure{margin:0;flex:0 0 min(240px,62vw);scroll-snap-align:start}
+.shots img{width:100%;display:block;border-radius:22px;border:1px solid var(--border)}
+.shots figcaption{margin-top:8px;text-align:center;color:var(--muted);font-size:14px}
 @media(max-width:480px){header.top nav{gap:12px}header.top nav a:first-child{display:none}body{overflow-x:hidden}}
