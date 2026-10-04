@@ -37,3 +37,4 @@ footer a{color:var(--text2)}
 .doc li{margin:6px 0}
 .doc p,.doc li{color:var(--text2)}
 .doc strong{color:var(--text)}
+@media(max-width:480px){header.top nav{gap:12px}header.top nav a:first-child{display:none}body{overflow-x:hidden}}
